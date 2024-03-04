@@ -68,10 +68,10 @@ public class ProcessosController {
 			
 			if (os.contains("Windows")) {
 				while (linha != null) {
-					if (linha.contains("M�dia")) {
+					if (linha.contains("dia")) {
 						String [] split = linha.split(",");
 						for (int i = 1; i < split.length; i++) {
-							if (split[i].contains("M�dia")) {
+							if (split[i].contains("dia")) {
 								System.out.println("Ping" + split[i]);
 							}
 						}
